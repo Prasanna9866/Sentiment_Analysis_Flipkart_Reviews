@@ -1,17 +1,24 @@
-# Student Habits vs Academic Performance Using Machine Learning
+# Flipkart Reviews Sentiment Analysis
 
 ## Project Description
-This project analyzes student habits and predicts academic performance using machine learning techniques.
+This project performs sentiment analysis on Flipkart product reviews to classify customer opinions as Positive, Negative, or Neutral.
 
 ## Technologies Used
 - Python
 - Pandas, NumPy
+- NLTK / TextBlob
 - Scikit-learn
 - Jupyter Notebook
 
 ## Dataset
-Student habits dataset including study hours, attendance, sleep hours, and scores.
+Flipkart product reviews dataset containing customer feedback and ratings.
+
+## Methodology
+- Text preprocessing (tokenization, stopword removal)
+- Feature extraction using TF-IDF
+- Sentiment classification using Machine Learning models
 
 ## Outcome
-Predicts student academic performance based on input habits.
+Successfully classified customer sentiments to help understand product feedback.
+
 
